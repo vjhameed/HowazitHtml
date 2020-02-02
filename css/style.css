@@ -1,0 +1,467 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+@font-face {
+  font-family: AhronBd;
+  src: url(../fonts/ahronbd.ttf);
+}
+
+@font-face {
+  font-family: CalibreBlack;
+  src: url(../fonts/CalibreBlack.otf);
+}
+
+@font-face {
+  font-family: CalibreBold;
+  src: url(../fonts/CalibreBold.otf);
+}
+
+@font-face {
+  font-family: CalibreLight;
+  src: url(../fonts/CalibreLight.otf);
+}
+
+@font-face {
+  font-family: CalibreMedium;
+  src: url(../fonts/CalibreMedium.otf);
+}
+
+.bsbg {
+  background-image: url(../img/headers.b07db671.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 50vh;
+}
+
+.bsbg img {
+  cursor: pointer;
+  height: 100px;
+  width: 200px;
+}
+.bsbg .ch-padd {
+  padding-top: 2em;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 28vh;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 51vh;
+    margin-bottom: 5px;
+  }
+  .main h1 {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 86vh;
+    margin-bottom: 5px;
+  }
+  .main h1 {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 28vh;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 50vh;
+    margin-bottom: 5px;
+  }
+  .main h1 {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 86vh;
+    margin-bottom: 5px;
+  }
+  .main h1 {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 28vh;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 86vh;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (min-device-height: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 22vh;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-device-height: 375px) and (min-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .bsbg {
+    background-image: url(../img/Canvas.e6c6fb1d.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 103vh;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .bsbg {
+    background-image: url(../img/headers.b07db671.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 20vh;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .bsbg {
+    background-image: url(../img/headers.b07db671.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 20vh;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .bsbg {
+    background-image: url(../img/headers.b07db671.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 20vh;
+  }
+}
+
+.iconColor {
+  color: #e3c1bd;
+}
+
+footer.page-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer > div:first-child {
+  background-color: rgb(0, 0, 0);
+}
+
+.ahronbd {
+  font-family: "Roboto", sans-serif;
+}
+
+.calibreblack {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900 !important;
+}
+
+.calibrebold {
+  font-family: "Roboto", sans-serif;
+}
+
+.calibrelight {
+  font-family: "Roboto", sans-serif;
+}
+
+.calibremedium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600 !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .img1 {
+    height: 280px;
+    width: 230px;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 225px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .img1 {
+    height: 280px;
+    width: 230px;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 225px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .img1 {
+    height: 280px;
+    width: 230px;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 225px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .img1 {
+    height: 280px;
+    width: 230px;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 225px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (min-device-height: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .img1 {
+    height: 280px;
+    width: 230px;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 225px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-height: 375px) and (min-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .img1 {
+    height: 280px;
+    width: 230px;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 225px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .body-wrapper {
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 115px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .body-wrapper {
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 115px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .body-wrapper {
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 115px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .body-wrapper {
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 115px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (min-device-height: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .body-wrapper {
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 115px;
+    right: 3px;
+  }
+}
+
+@media only screen and (min-device-height: 375px) and (min-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .body-wrapper {
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    bottom: 115px;
+    right: 3px;
+  }
+}
+
+/* index */
+.main {
+  padding-bottom: 4.4rem !important;
+}
+.main .box-1 {
+  width: 49%;
+  height: 55%;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+}
+
+.main .box-2 {
+  width: 49%;
+  cursor: pointer;
+  background-image: url(../img/f.4ba93592.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main .box-3 {
+  width: 49%;
+  cursor: pointer;
+  background-image: url(../img/e.45ece453.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main .box-4 {
+  width: 49%;
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.main .box-5 {
+  width: 49%;
+  height: 55%;
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.main .box-6 {
+  width: 49%;
+  cursor: pointer;
+  background-image: url(../img/a.53594078.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .hoverable:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.55s ease-in-out;
+}
